@@ -1,6 +1,7 @@
 #include <iostream>
-#include "Shader.h"
 #include <fstream>
+#include <string>
+#include "Shader.h"
 
 static void CheckShaderError(GLuint shader, GLuint flag, bool isProgram, const std::string& errorMessage);
 static std::string LoadShader(const std::string& fileName);
