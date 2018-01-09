@@ -27,7 +27,7 @@ private:
 
 	enum
 	{
-		POSTITION_VB,
+		POSITION_VB,
 	
 		NUM_BUFFERS
 	};
