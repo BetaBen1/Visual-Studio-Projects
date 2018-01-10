@@ -23,13 +23,14 @@ Mesh::Mesh(Vertex* vertices, unsigned int numVertices)
 void Mesh::Draw() 
 {
 	glBindVertexArray(m_vertexArrayObject);
+
+	glDrawArrays(GL_TRIANGLES, 0, m_drawCount);
+
+	glBindVertexArray(0);
 }
 
 Mesh::~Mesh()
 {
 	glDeleteVertexArrays(1, &m_vertexArrayObject);
-	
-	glDrawArrays(GL_TRIANGLES, 0, m_drawCount);
-	
-	glBindVertexArray(0);
+
 }
