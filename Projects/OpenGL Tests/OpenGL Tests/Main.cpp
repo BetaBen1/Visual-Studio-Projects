@@ -3,6 +3,7 @@
 #include "Display.h"
 #include "Shader.h"
 #include "Mesh.h"
+#include "Texture.h"
 
 int main() {
 
@@ -13,15 +14,16 @@ int main() {
 						  Vertex(glm::vec3(0.5, -0.5, 0)) };
 
 	Mesh mesh(vertices, sizeof(vertices) / sizeof(vertices[0]));
-
 	Shader shader("./res/basicShader");
+	Texture texture("./res/abstract_texture.jpg");
 
 	while (!display.IsClosed()) {
 
 		display.Clear(0.0f, 0.15f, 0.3f, 1.0f);
 
-		mesh.Draw();
 		shader.Bind();
+		texture.Bind(0);
+		mesh.Draw();
 
 		display.Update();
 	}

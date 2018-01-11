@@ -1,6 +1,1 @@
-﻿  Texture.cpp
-c:\users\betaben\documents\github\visual-studio-projects\projects\opengl tests\opengl tests\texture.cpp(8): warning C4101: 'height': unreferenced local variable
-c:\users\betaben\documents\github\visual-studio-projects\projects\opengl tests\opengl tests\texture.cpp(8): warning C4101: 'width': unreferenced local variable
-c:\users\betaben\documents\github\visual-studio-projects\projects\opengl tests\opengl tests\texture.cpp(8): warning C4101: 'numComponents': unreferenced local variable
-  stb_image.c
-  OpenGL Tests.vcxproj -> C:\Users\BetaBen\Documents\GitHub\Visual-Studio-Projects\Projects\OpenGL Tests\Debug\OpenGL Tests.exe
+﻿  OpenGL Tests.vcxproj -> C:\Users\BetaBen\Documents\GitHub\Visual-Studio-Projects\Projects\OpenGL Tests\Debug\OpenGL Tests.exe
