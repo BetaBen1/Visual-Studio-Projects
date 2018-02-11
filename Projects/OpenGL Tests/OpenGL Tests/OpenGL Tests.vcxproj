@@ -123,13 +123,16 @@
     <ClCompile Include="Display.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Obj_Loader.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="stb_image.c" />
     <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="Display.h" />
     <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Obj_Loader.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="Texture.h" />

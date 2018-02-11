@@ -25,6 +25,9 @@
     <ClCompile Include="stb_image.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Obj_Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Display.h">
@@ -41,5 +44,7 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Transform.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Obj_Loader.h" />
   </ItemGroup>
 </Project>
